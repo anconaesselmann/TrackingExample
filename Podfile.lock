@@ -1,0 +1,16 @@
+PODS:
+  - constrain (1.0.3)
+
+DEPENDENCIES:
+  - constrain
+
+SPEC REPOS:
+  trunk:
+    - constrain
+
+SPEC CHECKSUMS:
+  constrain: fcf02b6400e62b9bd37e00894269c2c6621556ab
+
+PODFILE CHECKSUM: c0f2272024ead0d690488fd898b7b8ed0ab0075e
+
+COCOAPODS: 1.11.2
