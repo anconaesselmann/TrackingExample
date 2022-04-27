@@ -12,10 +12,11 @@ class ProductionTracker: Tracker {
     
     func track(_ event: EventSchema, contexts: [EventContext]) {
         var contexts = contexts
-        let appContext = ISOAppContext(version: "1.0.1", isTester: true)
+        let appContext = ISOAppContext()
         contexts.append(appContext)
+        contexts.append(ButtonClickContext())
         if AppDelegate.isTester {
-            let testContext = TestContext(isTester: true, testEmail: "axel.esselmann@gmail.com")
+            let testContext = IOSTestContext(testEmail: "axel.esselmann@gmail.com", isTester: true)
             contexts.append(testContext)
         }
         print(event, contexts)

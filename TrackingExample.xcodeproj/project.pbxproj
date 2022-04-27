@@ -16,13 +16,14 @@
 		7F7640702819BE4C00976EA7 /* LoginButtonClickedEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F76406F2819BE4C00976EA7 /* LoginButtonClickedEvent.swift */; };
 		7F7640722819BF2200976EA7 /* MobileEventTriggerSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7640712819BF2200976EA7 /* MobileEventTriggerSchema.swift */; };
 		7F7640752819C04000976EA7 /* ButtonClickContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7640742819C04000976EA7 /* ButtonClickContext.swift */; };
-		7F7640772819C11E00976EA7 /* AppContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7640762819C11E00976EA7 /* AppContext.swift */; };
+		7F7640772819C11E00976EA7 /* AppContextSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7640762819C11E00976EA7 /* AppContextSchema.swift */; };
 		7F76407C2819C21200976EA7 /* IOSAppContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F76407B2819C21200976EA7 /* IOSAppContext.swift */; };
 		7F76407E2819C24900976EA7 /* EventContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F76407D2819C24900976EA7 /* EventContext.swift */; };
-		7F7640802819C26D00976EA7 /* TestContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F76407F2819C26D00976EA7 /* TestContext.swift */; };
+		7F7640802819C26D00976EA7 /* TestContextSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F76407F2819C26D00976EA7 /* TestContextSchema.swift */; };
 		7F7640882819C3EF00976EA7 /* Tracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7640872819C3EF00976EA7 /* Tracker.swift */; };
 		7F76408A2819C7F600976EA7 /* LoginTypeContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7640892819C7F600976EA7 /* LoginTypeContext.swift */; };
 		7F76408C2819CB5600976EA7 /* TrackingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F76408B2819CB5500976EA7 /* TrackingButton.swift */; };
+		7F76408E2819EC0900976EA7 /* IOSTestContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F76408D2819EC0900976EA7 /* IOSTestContext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,13 +39,14 @@
 		7F76406F2819BE4C00976EA7 /* LoginButtonClickedEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginButtonClickedEvent.swift; sourceTree = "<group>"; };
 		7F7640712819BF2200976EA7 /* MobileEventTriggerSchema.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileEventTriggerSchema.swift; sourceTree = "<group>"; };
 		7F7640742819C04000976EA7 /* ButtonClickContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonClickContext.swift; sourceTree = "<group>"; };
-		7F7640762819C11E00976EA7 /* AppContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContext.swift; sourceTree = "<group>"; };
+		7F7640762819C11E00976EA7 /* AppContextSchema.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContextSchema.swift; sourceTree = "<group>"; };
 		7F76407B2819C21200976EA7 /* IOSAppContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSAppContext.swift; sourceTree = "<group>"; };
 		7F76407D2819C24900976EA7 /* EventContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventContext.swift; sourceTree = "<group>"; };
-		7F76407F2819C26D00976EA7 /* TestContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestContext.swift; sourceTree = "<group>"; };
+		7F76407F2819C26D00976EA7 /* TestContextSchema.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestContextSchema.swift; sourceTree = "<group>"; };
 		7F7640872819C3EF00976EA7 /* Tracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tracker.swift; sourceTree = "<group>"; };
 		7F7640892819C7F600976EA7 /* LoginTypeContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTypeContext.swift; sourceTree = "<group>"; };
 		7F76408B2819CB5500976EA7 /* TrackingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingButton.swift; sourceTree = "<group>"; };
+		7F76408D2819EC0900976EA7 /* IOSTestContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSTestContext.swift; sourceTree = "<group>"; };
 		C19BD8ADC1AFC7287763066E /* Pods_TrackingExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrackingExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -166,8 +168,8 @@
 			isa = PBXGroup;
 			children = (
 				7F7640532819BCAB00976EA7 /* EventSchema.swift */,
-				7F7640762819C11E00976EA7 /* AppContext.swift */,
-				7F76407F2819C26D00976EA7 /* TestContext.swift */,
+				7F7640762819C11E00976EA7 /* AppContextSchema.swift */,
+				7F76407F2819C26D00976EA7 /* TestContextSchema.swift */,
 			);
 			path = core;
 			sourceTree = "<group>";
@@ -194,6 +196,7 @@
 			isa = PBXGroup;
 			children = (
 				7F76407B2819C21200976EA7 /* IOSAppContext.swift */,
+				7F76408D2819EC0900976EA7 /* IOSTestContext.swift */,
 			);
 			path = Custom;
 			sourceTree = "<group>";
@@ -228,6 +231,7 @@
 				7F7640322818B19D00976EA7 /* Frameworks */,
 				7F7640332818B19D00976EA7 /* Resources */,
 				C00A3E5B6A50129EDF312369 /* [CP] Embed Pods Frameworks */,
+				7F76408F2819F6C200976EA7 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -306,6 +310,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		7F76408F2819F6C200976EA7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
 		C00A3E5B6A50129EDF312369 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -332,13 +353,14 @@
 			files = (
 				7F7640882819C3EF00976EA7 /* Tracker.swift in Sources */,
 				7F7640702819BE4C00976EA7 /* LoginButtonClickedEvent.swift in Sources */,
-				7F7640772819C11E00976EA7 /* AppContext.swift in Sources */,
+				7F7640772819C11E00976EA7 /* AppContextSchema.swift in Sources */,
 				7F76403D2818B19D00976EA7 /* ExampleViewController.swift in Sources */,
 				7F7640392818B19D00976EA7 /* AppDelegate.swift in Sources */,
+				7F76408E2819EC0900976EA7 /* IOSTestContext.swift in Sources */,
 				7F7640542819BCAB00976EA7 /* EventSchema.swift in Sources */,
 				7F76407C2819C21200976EA7 /* IOSAppContext.swift in Sources */,
 				7F7640722819BF2200976EA7 /* MobileEventTriggerSchema.swift in Sources */,
-				7F7640802819C26D00976EA7 /* TestContext.swift in Sources */,
+				7F7640802819C26D00976EA7 /* TestContextSchema.swift in Sources */,
 				7F76408A2819C7F600976EA7 /* LoginTypeContext.swift in Sources */,
 				7F76407E2819C24900976EA7 /* EventContext.swift in Sources */,
 				7F7640752819C04000976EA7 /* ButtonClickContext.swift in Sources */,

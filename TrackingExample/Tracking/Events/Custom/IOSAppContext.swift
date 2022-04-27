@@ -3,8 +3,7 @@
 
 import Foundation
 
-struct ISOAppContext: AppContext {
+struct ISOAppContext: AppContextSchema {
     var os: String = "iOS"
-    var version: String = "1.0.0"
-    var isTester: Bool = false
+    var appVersion: String { AppDelegate.appVersion.description }
 }

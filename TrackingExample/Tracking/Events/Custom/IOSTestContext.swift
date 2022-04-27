@@ -3,8 +3,7 @@
 
 import Foundation
 
-/// Context added when testing
-struct TestContext: EventContext {
+struct IOSTestContext: TestContextSchema {
+    var testEmail: String
     let isTester: Bool
-    let testEmail: String
 }

@@ -10,6 +10,12 @@ class ExampleViewController: UIViewController {
     
     lazy var button: TrackingButton = {
         let button = TrackingButton()
+        // Here we add the click event that was generated with code gen during the
+        // build process.
+        // When the actual click occurs the button will attach relevant contexts
+        // to the event (in this case the fact that it was an iOS button click).
+        // Aditional contexts might be added by the tracker before the event is
+        // sent.
         button.buttonEvent = LoginButtonClickedEvent()
         button.delegate = self
         return button
@@ -30,6 +36,9 @@ class ExampleViewController: UIViewController {
 
 extension ExampleViewController: ButtonDelegate {
     func hasTapped() {
+        // We can add aditional contexts we would like to pass along with the
+        // button click event. Here we are adding a context that provides
+        // information about the type of authentication the user userd.
         button.contexts = [LoginTypeContext(loginType: loginType)]
     }
 }

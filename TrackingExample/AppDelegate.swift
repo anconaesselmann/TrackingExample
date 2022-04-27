@@ -3,10 +3,22 @@
 
 import UIKit
 
+struct AppVersion {
+    let major: Int
+    let minor: Int
+    let patch: Int
+    
+    var description: String {
+        "\(major).\(minor).\(patch)"
+    }
+}
+
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     static var isTester: Bool = true
+    
+    static var appVersion = AppVersion(major: 10, minor: 19, patch: 0)
     
     var window: UIWindow? = UIWindow()
 
